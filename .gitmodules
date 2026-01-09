@@ -7,3 +7,9 @@
 [submodule "custom/plugins/fast-syntax-highlighting"]
 	path = custom/plugins/fast-syntax-highlighting
 	url = https://github.com/zdharma-continuum/fast-syntax-highlighting.git
+[submodule "custom/colorful-prompt"]
+	path = custom/colorful-prompt
+	url = git@github.com:zeionara/colorful-prompt.git
+[submodule "custom/shell"]
+	path = custom/shell
+	url = git@github.com:zeionara/shell.git

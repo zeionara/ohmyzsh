@@ -98,3 +98,4 @@ try_source cvesna
 
 bindkey '^[[[CE' accept-line
 bindkey -M menuselect '^M' .accept-line
+bindkey '^[.' insert-last-word
