@@ -1,5 +1,6 @@
 # The following lines were added for oh-my-zsh
 export ZSH="$HOME/.oh-my-zsh"
+export GPG_TTY=$(tty)
 
 ZSH_THEME="robbyrussell"
 
@@ -70,7 +71,7 @@ bindkey "^[^[[Z" _go-up-one-dir
 
 try_source () {
     filename=${2:-.bashrc}
-    script_path="$HOME/$1/$filename"
+    script_path="$ZSH_CUSTOM/$1/$filename"
 
     if test -f "$script_path"; then
         . "$script_path"
