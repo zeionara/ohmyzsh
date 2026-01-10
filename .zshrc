@@ -1,6 +1,7 @@
 # The following lines were added for oh-my-zsh
 export ZSH="$HOME/.oh-my-zsh"
 export GPG_TTY=$(tty)
+export LS_COLORS="$LS_COLORS:ow=1;34:tw=1;34:"
 
 ZSH_THEME="robbyrussell"
 
