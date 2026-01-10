@@ -95,6 +95,7 @@ try_source smash .zshrc
 
 try_source new main.sh
 try_source cvesna
+try_source bashrc
 
 bindkey '^[[[CE' accept-line
 bindkey -M menuselect '^M' .accept-line

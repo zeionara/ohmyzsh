@@ -13,3 +13,6 @@
 [submodule "custom/shell"]
 	path = custom/shell
 	url = git@github.com:zeionara/shell.git
+[submodule "custom/bashrc"]
+	path = custom/bashrc
+	url = git@github.com:zeionara/bashrc.git
