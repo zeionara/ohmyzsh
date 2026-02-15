@@ -6,7 +6,7 @@ export LS_COLORS="$LS_COLORS:ow=1;34:tw=1;34:"
 ZSH_THEME="robbyrussell"
 
 zstyle ':omz:update' mode disabled
-zstyle ':omz:update' frequency 10
+# zstyle ':omz:update' frequency 10
 
 HYPHEN_INSENSITIVE="true"
 
