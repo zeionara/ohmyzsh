@@ -37,7 +37,7 @@ source $ZSH_CUSTOM/zsh-newuser-install.zsh
 autoload -U promptinit
 promptinit
 
-prompt gentoo
+# prompt gentoo
 
 setopt globdots
 # zstyle ':completion:*' file-patterns '*(D):files:files' '*(/):directories:directories'
