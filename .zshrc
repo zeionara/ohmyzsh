@@ -98,6 +98,8 @@ try_source new main.sh
 try_source cvesna
 try_source bashrc
 
+alias rap='sudo rc-service net.wlu1 restart; sleep 1; sudo rc-service dnsmasq restart; sleep 1; sudo rc-service hostapd restart; sleep 10; sudo ip addr add 192.168.1.1/24 dev wlu1'
+
 bindkey '^[[[CE' accept-line
 bindkey -M menuselect '^M' .accept-line
 bindkey '^[.' insert-last-word
