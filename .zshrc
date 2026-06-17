@@ -103,3 +103,5 @@ alias rap='sudo rc-service net.wlu1 restart; sleep 1; sudo rc-service dnsmasq re
 bindkey '^[[[CE' accept-line
 bindkey -M menuselect '^M' .accept-line
 bindkey '^[.' insert-last-word
+
+. $HOME/.oh-my-zsh/custom/bashrc/start-openvpn.sh
