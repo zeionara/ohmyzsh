@@ -16,3 +16,6 @@
 [submodule "custom/bashrc"]
 	path = custom/bashrc
 	url = git@github.com:zeionara/bashrc.git
+[submodule "custom/git-tools"]
+	path = custom/git-tools
+	url = git@github.com:zeionara/git-tools.git
